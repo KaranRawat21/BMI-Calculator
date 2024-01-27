@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(49, 47, 47);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    width: 90%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    border:2px solid rgb(16, 231, 84);
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.mainheading, label{
+    color: rgb(16, 231, 84);
+}
+#submit{
+    background-color: rgb(16, 231, 84);
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+#submit:hover{
+    background-color: red;
+}
